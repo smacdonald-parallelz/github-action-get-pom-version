@@ -1,5 +1,5 @@
-name: 'Get Project Version from pom.xml'
-description: 'Retrieves version from from top level project attribute from file in root of project called pom.xml'
+name: 'Read version pom.xml'
+description: 'Retrieves version value from project node pom.xml'
 outputs:
   version:
     description: 'Version as defined in pom.xml'
