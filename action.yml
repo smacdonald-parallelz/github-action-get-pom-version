@@ -1,0 +1,11 @@
+name: 'Get Project Version from pom.xml'
+description: 'Retrieves version from from top level project attribute from file in root of project called pom.xml'
+outputs:
+  version:
+    description: 'Version as defined in pom.xml'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+branding:
+  icon: 'at-sign'  
+  color: 'purple'

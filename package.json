@@ -1,0 +1,30 @@
+{
+  "name": "read-pom-version-action",
+  "version": "1.0.0",
+  "description": "Read version from pom.xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo no test && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smacdonald-parallelz/read-pom-version-action"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smacdonald-parallelz/read-pom-version-action/issues"
+  },
+  "homepage": "https://github.com/smacdonald-parallelz/read-pom-version-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "fast-xml-parser": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  }
+}
